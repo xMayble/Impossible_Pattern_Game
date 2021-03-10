@@ -6,7 +6,7 @@ Submitted by: Mehbub Rohit
 
 Time spent: 7 hours spent in total
 
-Instructions on how to properly play the game:
+## Instructions
 First, click on the link to the website down below. Once you are on the website, there should be an option on the upper right corner "Remix to Edit". 
 Press on that. It should now take you to a new glitch window where you are able to edit the code for the game. However, you will not be really editing the game.
 Press on "Show", then press on the option "Next to Code". It should bring up the game! Now just press on the start button, but don't continue to 
