@@ -6,6 +6,11 @@ Submitted by: Mehbub Rohit
 
 Time spent: 7 hours spent in total
 
+Instructions on how to properly play the game:
+First, click on the link to the website down below. Once you are on the website, there should be an option on the upper right corner "Remix to Edit". 
+Press on that. It should now take you to a new glitch window where you are able to edit the code for the game. However, you will not be really editing the game.
+Press on "Show", then press on the option "Next to Code". It should bring up the game! But do not start the game yet. Now, just go on an empty line on the code, 
+and press on your spacebar. For example, go on line 5, where it is empty, and just press space bar. Now, press "Start" on the game, and have fun! 
 Link to project: (https://glitch.com/edit/#!/impossible-pattern-game?path=script.js%3A6%3A11)
 
 ## Required Functionality
