@@ -8,8 +8,8 @@ Time spent: 7 hours spent in total
 
 ## Instructions
 Below is the site to play around with the Impossible Pattern Game! Once you arrive at the website, press 'Start'. However, do not 
-attempt to play the game just yet. After you have pressed 'Start', click on the small refresh icon right above it! Now, you can 
-officially start the game. Have fun!
+attempt to press anything yet. If you look above the title "Impossible Pattern Game!", you will notice a "Change URL" and refresh option.
+Click on the refresh option! Now you may press the 'Start' button again and officially start the game! Have Fun! 
 Link to project: (https://glitch.com/edit/#!/impossible-pattern-game?path=script.js%3A6%3A11)
 
 ## Required Functionality
