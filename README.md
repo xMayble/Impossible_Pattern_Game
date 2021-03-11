@@ -7,9 +7,9 @@ Submitted by: Mehbub Rohit
 Time spent: 7 hours spent in total
 
 ## Instructions
-Below is the site to play around with the Impossible Pattern Game! Once you arrive at the website, press 'Start'. However, do not 
-attempt to press anything else yet. If you look above the title "Impossible Pattern Game!", you will notice a "Change URL" and refresh option.
-Click on the refresh option! Now you may press the 'Start' button again and officially start the game! Have Fun! 
+Below is the site to play around with the Impossible Pattern Game! Once you arrive at the website, 
+look above the title "Impossible Pattern Game!", you will notice a "Change URL" and refresh option.
+Click on the refresh option! Now you may press the 'Start' button and officially start the game! Have Fun! 
 Link to project: (https://glitch.com/edit/#!/impossible-pattern-game?path=script.js%3A6%3A11)
 
 ## Required Functionality
