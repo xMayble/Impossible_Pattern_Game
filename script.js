@@ -1,18 +1,9 @@
 // global constants
 const cluePauseTime = 333; //how long to pause in between clues
 const nextClueWaitTime = 1000; //how long to wait before starting playback of the clue sequence
-// Sound Synthesis Functions
-const freqMap = {
-  1: 261.6,
-  2: 329.6,
-  3: 392,
-  4: 466.2,
-  5: 534,
-  6: 600,
-}
 
-//Global Variables
 
+//Global Variables 
 var clueHoldTime = 1000; //how long to hold each clue's light/sound
 var pattern = [2, 2, 4, 3, 2, 1, 2, 4, 5, 6, 3, 2, 6,];
 var progress = 0; 
@@ -25,8 +16,8 @@ var mistake_counter = 0;
 function startGame(){
     //initialize game variables
     progress = 0;
-    mistake_counter = 0;
     gamePlaying = true;
+    mistake_counter = 0;
   // swap the Start and Stop buttons
     document.getElementById("startBtn").classList.add("hidden");
     document.getElementById("stopBtn").classList.remove("hidden");
@@ -37,6 +28,17 @@ function stopGame(){
   gamePlaying = false;
   document.getElementById("startBtn").classList.remove("hidden");
   document.getElementById("stopBtn").classList.add("hidden");
+}
+
+// Sound Synthesis Functions
+
+const freqMap = {
+  1: 261.6,
+  2: 329.6,
+  3: 392,
+  4: 466.2,
+  5: 534,
+  6: 600,
 }
 
 function playTone(btn,len){ 
@@ -53,6 +55,7 @@ function startTone(btn){
     g.gain.setTargetAtTime(volume,context.currentTime + 0.05,0.025)
     tonePlaying = true
   }
+  
 }
 function stopTone(){
     g.gain.setTargetAtTime(0,context.currentTime + 0.05,0.025)
@@ -91,7 +94,7 @@ function playClueSequence(){
     console.log("play single clue: " + pattern[i] + " in " + delay + "ms")
     setTimeout(playSingleClue,delay,pattern[i]) // set a timeout to play that clue
     clueHoldTime -= 8;
-    delay += clueHoldTime 
+    delay += clueHoldTime
     delay += cluePauseTime;
     
   }
@@ -99,12 +102,14 @@ function playClueSequence(){
 
 function loseGame(){
   stopGame();
-  alert("Game Over!");
+  alert("Game Over!"); 
+  clueHoldTime = 1000;
 }
 
 function winGame(){
   stopGame();
-  alert("Congratulations! You won!.");
+  alert("Congratulations! You won!");
+  clueHoldTime = 1000;
 }
 
 function guess(btn){
@@ -154,6 +159,8 @@ function guess(btn){
         }
     }
     
+  
+  
     
     
       
