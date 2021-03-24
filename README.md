@@ -4,7 +4,7 @@ Impossible Pattern Game is a Light & Sound Memory game to apply for CodePath's S
 
 Submitted by: Mehbub Rohit
 
-Time spent: 7 hours spent in total
+Time spent: 12 hours spent in total
 
 Link to project: (https://glitch.com/edit/#!/impossible-pattern-game?path=script.js%3A6%3A11)
 
