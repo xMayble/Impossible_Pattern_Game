@@ -6,12 +6,6 @@ Submitted by: Mehbub Rohit
 
 Time spent: 7 hours spent in total
 
-## Instructions
-Below is the site to play around with the Impossible Pattern Game! If you are using Google Chrome, go to the link below.
-Press on "Show", and press the option "Next to the Code". Now, look above the title "Impossible Pattern Game!" on the program on the right
-side of the website, you will notice a "Change URL" and refresh option. Click on the refresh option! Now you may press the 'Start' button 
-and officially start the game! If you are using a browser other than Google Chrome, press on the link, press on "Show" on the glitch website, and then press
-the option "Next to the Code". You can simply just press the "Start" button now, and play the game! Have Fun!
 Link to project: (https://glitch.com/edit/#!/impossible-pattern-game?path=script.js%3A6%3A11)
 
 ## Required Functionality
