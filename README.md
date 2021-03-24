@@ -28,9 +28,6 @@ The following **optional** features are implemented:
 * [x] Playback speeds up on each turn
 * [x] Player only loses after 3 mistakes (instead of on the first mistake)
 
-
-- [I can implement a text on the program that displays how many tries the user has left. I can also change up the pattern everytime the game is started or ended.] List anything else that you can get done to improve the app!
-
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
